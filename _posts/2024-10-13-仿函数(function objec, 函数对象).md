@@ -2,7 +2,7 @@
 title: 【C++ STL】仿函数（function object, 函数对象）
 author: zhugenmi
 date: 2024-10-13
-categories: [C++, STL]
+categories: [C/C++, STL]
 tags: [c++]
 ---
 

@@ -2,7 +2,7 @@
 title: 【C++ STL】数值算法stl_numeric.h
 author: zhugenmi
 date: 2024-10-13
-categories: [C++, STL]
+categories: [C/C++, STL]
 tags: [c++]
 ---
 

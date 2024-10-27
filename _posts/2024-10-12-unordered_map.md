@@ -2,7 +2,7 @@
 title: 【C++ STL】unordered_map
 author: zhugenmi
 date: 2024-10-12
-categories: [C++, STL]
+categories: [C/C++, STL]
 tags: [c++,unordered_map]
 ---
 ## 说明

@@ -2,7 +2,7 @@
 title: 【C++ STL】unordered_set
 author: zhugenmi
 date: 2024-10-12
-categories: [C++, STL]
+categories: [C/C++, STL]
 tags: [c++,unordered_set]
 ---
 ## 说明

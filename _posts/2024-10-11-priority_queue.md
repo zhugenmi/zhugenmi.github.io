@@ -2,7 +2,7 @@
 title: 【C++ STL】priority_queue
 author: zhugenmi
 date: 2024-10-11 
-categories: [C++, STL]
+categories: [C/C++, STL]
 tags: [c++,priority_queue]
 ---
 
