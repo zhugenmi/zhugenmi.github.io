@@ -2,7 +2,7 @@
 title: Markdown 基础语法
 author: zhugenmi
 date: 2023-10-1
-categories: [Blogging, Tutorial]
+categories: [Tutorial]
 tags: [markdown]
 ---
 
