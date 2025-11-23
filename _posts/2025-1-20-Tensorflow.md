@@ -266,7 +266,7 @@ result of labels1: tf.Tensor(
 
 5、acc/loss可视化
 
-代码示例（含注释讲解）：[iris.py](code/ex1_iris.py)
+代码示例（含注释讲解）：[iris.py](../assets/code/ex1_iris.py)
 
 # 神经网络优化
 
@@ -388,7 +388,7 @@ loss_zdy= tf.reduce_sum(tf.where(tf.greater(y, y_), (y - y_) * COST, (y_ - y) * 
 
 TF中表示：`tf.losses.categorical_crossentropy(y_,y)`
 
-代码示例：[loss_func.py](code/ex2_loss_func.py)
+代码示例：[loss_func.py](../assets/code/ex2_loss_func.py)
 
 在**Tensorflow**中，`softmax`与交叉熵结合，即输出先过`softmax`函数，再计算$y$与$y\_$的交叉熵损失函数：`tf.nn.softmax_cross_entropy_with_logits(y_,y)`
 
@@ -452,7 +452,7 @@ $loss_{L1}(w)=\sum_i |w_i|$                                        $loss_{L2}(w)
 - L1正则化大概率会使很多参数变为0，因此该方法可通过稀疏参数，即减少参数的数量，降低复杂度。
 - L2正则化会使参数很接近0但不为0，因此该方法可通过减少参数值的大小降低复杂度。
 
-示例代码：[regularization.py](code/ex3_regularizationcontain.py)
+示例代码：[regularization.py](../assets/code/ex3_regularizationcontain.py)
 
 ## 优化器
 
@@ -598,7 +598,7 @@ w1.assign_sub(lr * m_w_correction / tf.sqrt(v_w_correction))
 b1.assign_sub(lr * m_b_correction / tf.sqrt(v_b_correction))
 ```
 
-在鸢尾花分类[iris.py](code/ex1_iris.py)代码的基础上，添加优化器示例：[optimizer.py](code/ex4_optimizer.py)
+在鸢尾花分类[iris.py](../assets/code/ex1_iris.py)代码的基础上，添加优化器示例：[optimizer.py](../assets/code/ex4_optimizer.py)
 
 通过本例对各类优化器进行对比如下：
 
@@ -671,7 +671,7 @@ LSTM层：`tf.keras.layers.LSTM()`
 
 6、`model.summary()`打印出网络结构和参数统计
 
-使用六步法复现鸢尾花分类：[iris_sequential.py](code/ex5_iris_sequential.py)
+使用六步法复现鸢尾花分类：[iris_sequential.py](../assets/code/ex5_iris_sequential.py)
 
 可以使用一个`class`类封装一个神经网络结构：
 
@@ -686,21 +686,21 @@ class MyModel(Model):
 model=MyModel()
 ```
 
-使用类复现鸢尾花分类：[iris_class.py](code/ex5_iris_class.py)
+使用类复现鸢尾花分类：[iris_class.py](../assets/code/ex5_iris_class.py)
 
 ## 使用公开数据集进行练习
 
 ### MNIST 数据集
 
-六步法：[mnis_sequential.py](code/ex6_mnist_sequential.py)
+六步法：[mnis_sequential.py](../assets/code/ex6_mnist_sequential.py)
 
-使用类：[mnist_class.py](code/ex6_mnist_class.py)
+使用类：[mnist_class.py](../assets/code/ex6_mnist_class.py)
 
 ### FASHION 数据集
 
-六步法：[fashion_sequential.py](code/ex7_fashion_sequential.py)
+六步法：[fashion_sequential.py](../assets/code/ex7_fashion_sequential.py)
 
-使用类：[fashion_class.py](code/ex7_fashion_class.py)
+使用类：[fashion_class.py](../assets/code/ex7_fashion_class.py)
 
 ## 数据增强-扩充数据集
 
@@ -716,7 +716,7 @@ image_gen_train=tf.keras.preprocessing.image.ImageDataGenerator(
 image_gen_train.fix(x_train)
 ```
 
-代码示例：[augmented_images.py](code/ex8_augmented_images.py)
+代码示例：[augmented_images.py](../assets/code/ex8_augmented_images.py)
 
 ## 断点续训，存取模型
 
@@ -730,10 +730,10 @@ image_gen_train.fix(x_train)
 
 设置`print`输出格式：`np.set_printoptions(threshold=超过多少省略显示)`
 
-代码：[mnist_train.py](code/ex9_mnist_train.py)
+代码：[mnist_train.py](../assets/code/ex9_mnist_train.py)
 
 ## 给图识物
 
-代码：[mnist_app.py](code/ex9_mnist_app.py)
+代码：[mnist_app.py](../assets/code/ex9_mnist_app.py)
 
 
