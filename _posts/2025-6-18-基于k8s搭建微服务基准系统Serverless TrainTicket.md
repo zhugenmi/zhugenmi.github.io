@@ -9,7 +9,7 @@ description:
 
 ## Serverless TrainTicket 部署
 
-TrainTicket 是复旦大学 CodeWisdom 团队按照工业界微服务实践所开发的一个开源微服务基准系统，是基于微服务架构的一个火车订票系统，包含了 41 种微服务。本项目使用开源函数计算框架 OpenFaaS、基于 Serverless 架构提取并改造开源微服务系统 TrainTicket 中高并发的订票业务，部署并运行在 Kubernetes 集群中。主要使用的开发技术框架如下： Java - OpenFaaS、OkHttp、*Spring Boot DB - MongoDB、MongoBD JDBC。地址：https://github.com/FudanSELab/serverless-trainticket
+TrainTicket 是复旦大学 CodeWisdom 团队按照工业界微服务实践所开发的一个开源微服务基准系统，是基于微服务架构的一个火车订票系统，包含了 41 种微服务。本项目使用开源函数计算框架 OpenFaaS、基于 Serverless 架构提取并改造开源微服务系统 TrainTicket 中高并发的订票业务，部署并运行在 Kubernetes 集群中。主要使用的开发技术框架如下： Java - OpenFaaS、OkHttp、*Spring Boot DB - MongoDB、MongoBD JDBC。地址：[https://github.com/FudanSELab/serverless-trainticket](https://github.com/FudanSELab/serverless-trainticket)
 
 ### 1. 安装  OpenFaaS
 
@@ -54,7 +54,7 @@ mv templates-1.9.0/template ./
 rm -rf templates-1.9.0 1.9.0.tar.gz
 ```
 
-接下来需要配置NFS共享文件目录，参考[配置NFS共享文件目录](./2025-6-3-配置NFS共享文件目录.md.md)。
+接下来需要配置NFS共享文件目录，参考==配置NFS共享文件目录==。
 
 ### 4. 设置环境变量
 
